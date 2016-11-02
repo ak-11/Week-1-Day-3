@@ -4,7 +4,7 @@
 
 
 function countLetters(str)  {
-  var characters = str.split('');
+  var characters = str.split(' ').join('');
   var objectArray = {}
   // var charCount = 1;
   // for (occurences of characters) {
@@ -18,7 +18,7 @@ function countLetters(str)  {
   }
   return objectArray;
 }
-console.log(countLetters("mapleleafs"));
+console.log(countLetters("loopy lighthouse"));
 
   // console.log(character);
   // console.log(objectArray);
